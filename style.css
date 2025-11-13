@@ -46,14 +46,6 @@ h1 {
     margin-bottom: 1.5rem;
 }
 
-footer {
-    text-align: center;
-    margin-top: auto;
-    padding: 2rem 0 1rem;
-    font-size: 12px;
-    color: #a1a1aa;
-}
-
 table {
     width: 100%;
     border-collapse: collapse;
@@ -121,6 +113,19 @@ tbody tr:hover {
 }
 
 @media (max-width: 640px) {
+    body {
+        justify-content: center;
+        padding: 2.25rem 0.75rem;
+    }
+
+    .container {
+        justify-content: center;
+    }
+
+    main {
+        width: 100%;
+    }
+
     table {
         border: none;
         border-radius: 0;
@@ -144,7 +149,7 @@ tbody tr:hover {
     tbody tr {
         border: 1px solid #e4e4e7;
         border-radius: 8px;
-        padding: 0.75rem 0.9rem;
+        padding: 1rem 1.1rem;
         margin-bottom: 0.85rem;
         background: white;
     }
@@ -173,7 +178,7 @@ tbody tr:hover {
 
 @media (max-width: 480px) {
     body {
-        padding: 1rem 0.25rem;
+        padding: 1rem;
         font-size: 12px;
         background-size: 12px 12px;
     }
@@ -193,6 +198,6 @@ tbody tr:hover {
     }
 
     tbody tr {
-        padding: 0.65rem 0.8rem;
+        padding: 0.9rem 1rem;
     }
 }
