@@ -166,10 +166,9 @@ tbody tr:hover {
         margin-bottom: 0.2rem;
     }
 
-    td:nth-child(1)::before { content: "Day"; }
-    td:nth-child(2)::before { content: "Date"; }
-    td:nth-child(3)::before { content: "Module"; }
-    td:nth-child(4)::before { content: "Source Code"; }
+    td:nth-child(1)::before { content: "Date"; }
+    td:nth-child(2)::before { content: "Module"; }
+    td:nth-child(3)::before { content: "Source Code"; }
 }
 
 @media (max-width: 480px) {
